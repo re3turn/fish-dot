@@ -1,11 +1,11 @@
 function dot --description "dotfiles manager 'dot' for fish-shell"
 
-    if not test -f $DOT_SCR/dot.sh
+    if not test -e $DOT_SCR/dot.sh
         echo "dot is not installed."
         return 1
     end
 
-    if not type -q (command -s bash)
+    if not type -fq bash
         echo "bash is not executed."
         return 1
     end
