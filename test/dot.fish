@@ -5,10 +5,20 @@ test "Check syntax"
     )
 end
 
-test "not install dot"
+test "not set DOT_SCR"
     1 = (
         set -l PREV_DOT_SCR $DOT_SCR
         set -e DOT_SCR
+        dot
+        echo $status
+        set DOT_SCR $PREV_DOT_SCR
+    )
+end
+
+test "not install dot"
+    1 = (
+        set -l PREV_DOT_SCR $DOT_SCR
+        set DOT_SCR /not_exist_path.....
         dot
         echo $status
         set DOT_SCR $PREV_DOT_SCR

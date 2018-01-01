@@ -1,4 +1,8 @@
 function dot --description "dotfiles manager 'dot' for fish-shell"
+    if test -z $DOT_SCR
+        echo "Please 'set -U DOT_SCR <dot_source_ource_clone_repository>'"
+        return 1
+    end
 
     if not test -e $DOT_SCR/dot.sh
         echo "dot is not installed."
