@@ -14,6 +14,6 @@ function dot --description "dotfiles manager 'dot' for fish-shell"
         return 1
     end
 
-    bash -c "source \"$DOT_SCR/dot.sh\" && dot_main $argv"
+    command bash -c "source \"$DOT_SCR/dot.sh\" && dot_main $argv"
 end
 
