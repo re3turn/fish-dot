@@ -1,6 +1,6 @@
 # dot
 
-dotfiles manager '[dot]' for fish-sehll
+dotfiles manager '[dot]' for fish-shell
 
 ## Install
 
