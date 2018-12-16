@@ -7,7 +7,7 @@ dotfiles manager '[dot]' for fish-shell
 With [fisherman]
 
 ```
-fisher re3turn/fish-dot
+fisher add re3turn/fish-dot
 ```
 
 ### COMMAND LINE
