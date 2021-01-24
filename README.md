@@ -25,6 +25,21 @@ set -U DOT_SCR ~/.dot
 
 Please see [dot]
 
+## Tests
+
+Install fishtape
+
+```
+fisher install jorgebucaran/fishtape
+```
+
+Run tests.
+
+```
+fishtape tests/*.fish
+```
+
+
 [fisher]: https://github.com/fisherman/fisher
 [fish-shell]: https://fishshell.com
 [dot]: https://github.com/ssh0/dot
