@@ -4,10 +4,10 @@ dotfiles manager '[dot]' for fish-shell
 
 ## Install
 
-With [fisherman]
+With [fisher]
 
 ```
-fisher add re3turn/fish-dot
+fisher install re3turn/fish-dot
 ```
 
 ### COMMAND LINE
@@ -25,6 +25,7 @@ set -U DOT_SCR ~/.dot
 
 Please see [dot]
 
-[fisherman]: https://github.com/fisherman/fisherman
+[fisher]: https://github.com/fisherman/fisher
 [fish-shell]: https://fishshell.com
 [dot]: https://github.com/ssh0/dot
+
